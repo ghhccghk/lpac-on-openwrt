@@ -18,7 +18,6 @@ include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
 
 define Package/lpac
-  SUBMENU:=esim support
   TITLE:=lpac is a cross platform local profile agent program.
   DEPENDS:=+libopenssl +pcscd +libpcsclite +libcurl
 endef
