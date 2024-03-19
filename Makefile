@@ -18,7 +18,10 @@ include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
 
 define Package/lpac
-  TITLE:=lpac is a cross platform local profile agent program.
+  SECTION:=utils
+  CATEGORY:=Utilities
+  TITLE:=eUICC eSIM LPA written in C
+  URL:=https://github.com/estkme-group/lpac
   DEPENDS:=+libopenssl +pcscd +libpcsclite +libcurl
 endef
 
